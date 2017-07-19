@@ -6,7 +6,7 @@ import android.os.Handler
 import android.support.v7.app.AlertDialog
 import android.support.v7.app.AppCompatActivity
 import com.daotangbill.lib.R
-import com.daotangbill.lib.utils.statusbar.StatusBarHelper
+import com.dtb.lib.utils.statusbar.StatusBarHelper
 import org.jetbrains.anko.AnkoLogger
 
 
@@ -19,6 +19,7 @@ abstract class BaseActivity : AppCompatActivity(), AnkoLogger {
     private var dlg: AlertDialog? = null
     protected var mStatusBarHelper: StatusBarHelper? = null
     protected val handler: Handler = Handler()
+    var loadingState: Int = 0
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -66,6 +67,7 @@ abstract class BaseActivity : AppCompatActivity(), AnkoLogger {
             dlg = null
         }
     }
+
 
     /**
      * 隐藏 progress dialog
