@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="app_color">#199df0</color>
+    <color name="app_bg">#f2f3f8</color>
+    <color name="app_btn">#ff6600</color>
+    <color name="bg_gray_button">#b3b3b3</color>
+    <color name="background_tab_pressed">#6633B5E5</color>
+    <color name="colorSeekBarDefault">#c3c3c3</color>
+    <!--txt color-->
+    <color name="txt_orange_color">#ff8610</color>
+    <color name="txt_black_color">#000000</color>
+    <color name="txt_color">#91929b</color>
+    <color name="txt_hide_color">#eaeaea</color>
+    <color name="txt_filter_f">#4e4e4e</color>
+    <color name="hint_ash">#b8b8b8</color>
+    <color name="ash_txt">#5d5f69</color>
+    <color name="txt_check_true_color">#ff6600</color>
+    <!--bg color-->
+    <color name="city_t">#ffcead</color>
+    <color name="ash_city_list_head">#fcfcfc</color>
+    <color name="ash_bg">#F9F9F9</color>
+    <color name="ash_bg_20">#f6f6f6</color>
+    <color name="transparent">#ee000000</color>
+    <color name="transparent_f">#4f000000</color>
+    <color name="temp">#88ffffff</color>
+    <!-- photo picker-->
+    <color name="__picker_pager_bg">#CA000000</color>
+    <color name="__picker_selected_bg">#44000000</color>
+    <color name="__picker_black_40">#282828</color>
+    <color name="__picker_common_primary">#f3f3f3</color>
+    <color name="ash_parameter">#f2f3f8</color>
+
+    <color name="__picker_text_40">#282828</color>
+    <color name="__picker_text_80">#505050</color>
+    <color name="__picker_text_120">#787878</color>
+    <color name="__picker_item_photo_border_selected">#ff99cc00</color>
+    <color name="__picker_item_photo_border_n">#33ffffff</color>
+    <color name="trans_color">#00000000</color>
+    <!--txt color-->
+    <color name="txt_ash">#333333</color>
+    <color name="tra_orange_color">#ff8620</color>
+    <color name="wuxian_txt">#686868</color>
+    <!--bg color-->
+    <color name="ash_bg_line">#eaeaea</color>
+    <color name="ash_bg_2">#f2f2f2</color>
+    <color name="renzheng_blue">#79bcf3</color>
+    <color name="white">#ffffff</color>
+    <color name="text_tab_new">#6cb939</color>
+    <color name="text_tab_value">#ffa810</color>
+    <color name="text_tab_world">#3c86ea</color>
+    <color name="trans">#00FFFFFF</color>
+    <color name="success_content_color">#999999</color>
+    <color name="gray_solid">#F4F4F4</color>
+</resources>
