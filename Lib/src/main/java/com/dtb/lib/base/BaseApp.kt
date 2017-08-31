@@ -21,6 +21,8 @@ open class BaseApp : Application() {
     companion object {
         @JvmStatic
         var actList: MutableList<Activity> = mutableListOf()
+        @SuppressLint("StaticFieldLeak")
+        var topAct: Activity? = null
     }
 
     override fun onCreate() {
@@ -50,6 +52,7 @@ open class BaseApp : Application() {
         }
 
         override fun onActivityStarted(activity: Activity?) {
+            activity?.let { topAct = activity }
         }
 
         override fun onActivityDestroyed(activity: Activity?) {
